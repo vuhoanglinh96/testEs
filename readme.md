@@ -1,5 +1,9 @@
 # App demo Elasticsearch
 
+App demo sự kết nối của ứng dụng với 2 database là mysql và elasticsearch.
+
+Mysql là database chính để lưu trữ, database elasticsearch đươc dùng để tìm kiếm dữ liệu.
+
 Yêu cầu: XAMPP, Elasticsearch
 
 Elasticsearch: Khởi động Elasticsearch (chạy bin/elasticsearch, hoặc bin\elasticsearch.bat).
