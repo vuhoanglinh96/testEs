@@ -17,15 +17,14 @@ class PageController extends Controller
      */
     public function index(Request $request){
         if($request->has('search')){
-            // $ss = Shakespeare::search($request->input('search'));
-            $results = Shakespeare::search($request->input('search'))->toArray();
-            // $total = $ss->totalHits();
-            $total = 0;
+            $results = Shakespeare::search($request->input('search'));
+            $total = $results->totalHits();
         }
-    	return view('src.index',compact('results'))
-        // ->with([
-        //     'total' => $total
-        // ])
+    	return view('src.index')
+            ->with([
+                'results' => $results,
+                'total' => $total
+        ])
         ;
     }
 

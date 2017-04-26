@@ -7,9 +7,6 @@
 
     <title>Test ElasticSearch</title>
 
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -20,6 +17,11 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
+			<h3 class="text-center text-success">
+				Test Elasticsearch with sample data
+			</h3>
+			</br>
+
 			{!! Form::open(array('method'=>'get','class'=>'')) !!}
 				<div class="form-group">
 					 
@@ -33,7 +35,8 @@
 				</button>
 			{!! Form::close() !!}
 
-			</br></br>
+			</br>
+			<h4 class="text-success">Tìm thấy: {{ $total }} kết quả</h4>
 			@if(!empty($results))
 				{{-- {{ $total }} --}}
 				@foreach($results as $key => $value)
