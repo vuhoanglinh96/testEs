@@ -16,7 +16,7 @@ Hướng dẫn cài đặt
 
 Download hoặc clone git.
 
-App có thể yêu cầu cấp quyền write trong thư mục storage và bootstrap/cache. Nếu app được chạy bằng Homestead virtual machine thì quyền write này đã được tử động cấp.
+App có thể yêu cầu cấp quyền write trong thư mục storage và bootstrap/cache. Nếu app được chạy bằng Homestead virtual machine thì quyền write này đã được tự động cấp.
 
 Ngoài ra, để app chạy ổn đinh, ta cần phải config lại cache: php artisan config:cache
 
