@@ -8,11 +8,11 @@ Hướng dẫn cài đặt
 
 Download hoặc clone git.
 App có thể yêu cầu cấp quyền write trong thư mục storage và bootstrap/cache. Nếu app được chạy bằng Homestead virtual machine thì quyền write này đã được tử động cấp.
-Ngoài ra, để app chạy ổn đinh, ta cần phải
+Ngoài ra, để app chạy ổn đinh, ta cần phải config lại cache: php artisan config:cache
 
 
 1. Demo app with sample data
-  Import bảng shakespeare vào shakespeare_test database
+  Import bảng shakespeare ( https://drive.google.com/open?id=0B-rJj0ngndSuVnZVVkd3UkNkX3c ) vào shakespeare_test database
   Đánh index cho bảng shakespeare:
   - Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan tinker
   - Chạy tiếp lệnh App\Shakespeare::addAllToIndex();
