@@ -27,6 +27,6 @@ return array(
     | Elasticquent models.
     */
 
-    'default_index' => 'shakespeare_test',
+    'default_index' => 'demo_es',
 
 );

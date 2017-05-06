@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('ItemSearch', 'ItemSearchController@index');
+Route::get('/', 'ItemSearchController@index');
 Route::post('ItemSearchCreate', 'ItemSearchController@create');

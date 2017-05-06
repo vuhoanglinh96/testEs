@@ -10,7 +10,7 @@ Elasticsearch: Khởi động Elasticsearch (chạy bin/elasticsearch, hoặc bi
 
 Xampp: khởi động localhost và mysql.
 
-Tạo sẵn một cơ sở dữ liệu tên là shakespeare_test trên mysql
+Tạo sẵn một cơ sở dữ liệu tên là demo_es trên mysql
 
 Hướng dẫn cài đặt
 
@@ -22,5 +22,5 @@ Ngoài ra, để app chạy ổn định, ta cần phải config lại cache: ph
 
 Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan migrate
 
-Mở trình duyệt => localhost/testEs/public/ItemSearch
+Mở trình duyệt => localhost/testEs/public
 
