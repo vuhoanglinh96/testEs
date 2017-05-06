@@ -23,4 +23,3 @@ Ngoài ra, để app chạy ổn định, ta cần phải config lại cache: ph
 Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan migrate
 
 Mở trình duyệt => localhost/testEs/public
-
