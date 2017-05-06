@@ -17,11 +17,12 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h3 class="text-center text-success">
-				Test Elasticsearch with no data
+				Test Elasticsearch
 			</h3>
 			</br>
 			<div class="row">
 				<div class="col-md-6">
+					<h4>Tìm kiếm</h4>
 					{!! Form::open(array('method'=>'get','class'=>'')) !!}
 						<div class="form-group">
 							 
@@ -36,6 +37,7 @@
 					{!! Form::close() !!}
 				</div>
 				<div class="col-md-6">
+					<h4>Thêm vật phẩm</h4>
 					{!! Form::open(array('url' => 'ItemSearchCreate','autocomplete'=>'off')) !!}
 						<div class="form-group">
 							<label for="title">
