@@ -13,6 +13,3 @@
 
 Route::get('ItemSearch', 'ItemSearchController@index');
 Route::post('ItemSearchCreate', 'ItemSearchController@create');
-
-Route::get('/', 'PageController@index');
-
