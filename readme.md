@@ -18,7 +18,7 @@ Download hoặc clone git.
 
 App có thể yêu cầu cấp quyền write trong thư mục storage và bootstrap/cache. Nếu app được chạy bằng Homestead virtual machine thì quyền write này đã được tự động cấp.
 
-Ngoài ra, để app chạy ổn đinh, ta cần phải config lại cache: php artisan config:cache
+Ngoài ra, để app chạy ổn định, ta cần phải config lại cache: php artisan config:cache
 
 Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan migrate
 
