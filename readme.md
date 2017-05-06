@@ -2,7 +2,7 @@
 
 App demo sự kết nối của ứng dụng với 2 database là mysql và elasticsearch.
 
-Mysql là database chính để lưu trữ, database elasticsearch đươc dùng để tìm kiếm dữ liệu.
+Mysql là database chính để lưu trữ, database elasticsearch được dùng để tìm kiếm dữ liệu.
 
 Yêu cầu: XAMPP, Elasticsearch
 
@@ -20,20 +20,7 @@ App có thể yêu cầu cấp quyền write trong thư mục storage và bootst
 
 Ngoài ra, để app chạy ổn đinh, ta cần phải config lại cache: php artisan config:cache
 
+Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan migrate
 
-1. Demo app with sample data
-
-  Import bảng shakespeare ( https://drive.google.com/open?id=0B-rJj0ngndSuVnZVVkd3UkNkX3c ) vào shakespeare_test database
-
-  Đánh index cho bảng shakespeare:
-  - Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan tinker
-  - Chạy tiếp lệnh App\Shakespeare::addAllToIndex();
-  - Mở trình duyệt => localhost/testEs/public
-
-
-2. Demo app with no sample data
-
-  Mở terminal (hoặc cmd cho Window), chạy lệnh php artisan migrate
-
-  Mở trình duyệt => localhost/testEs/public/ItemSearch
+Mở trình duyệt => localhost/testEs/public/ItemSearch
 
